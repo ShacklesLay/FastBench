@@ -1,0 +1,17 @@
+{
+  "python": "3.12.8",
+  "model_attention": "sdpa",
+  "inference": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "torchcodec": "0.7.0",
+    "transformers": "4.57.3",
+    "accelerate": "1.12.0",
+    "pandas": "2.3.3",
+    "requests": "2.32.5",
+    "json-repair": "0.59.5",
+    "safetensors": "0.7.0"
+  },
+  "judge": "BF16 vLLM Qwen3-235B-A22B-Instruct-2507",
+  "difference_from_upstream_requirements": "torch2.8/torchvision0.23 rather than2.7.1/0.22.1; torchcodec0.7 required by native sampler"
+}

@@ -187,3 +187,13 @@ python -m unittest discover -s tests -p 'test_proactive_frame.py'
 ## Acknowledgements and license
 
 The streaming evaluator builds on **PhoStream**. The original MIT copyright notice is retained in [LICENSE](LICENSE); see [NOTICE.md](NOTICE.md) for attribution.
+
+## Optional MOSS-VL-Realtime native framewise adapter
+
+The opt-in [native MOSS-VL-Realtime adapter](moss_native/README.md) uses the
+public realtime system prompt,
+single-frame generated-silence handshake and a separately labelled fractional
+input-event clock. It leaves existing model paths/evaluator source unchanged.
+The accompanying 44.25 is a verified split-run aggregate, not a fresh joint 300-video
+result or a direct replacement for the manuscript row. Please run its smoke and
+independent full rerun and review common visibility/timing/budget conditions first.

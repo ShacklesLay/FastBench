@@ -1,0 +1,46 @@
+{
+  "status": "verified_split_run_aggregate_not_joint_full_run",
+  "QA": 306,
+  "counts": {
+    "forward": 168,
+    "instant": 73,
+    "backward": 65
+  },
+  "score_100": {
+    "forward": 44.04761904761905,
+    "instant": 46.84931506849315,
+    "backward": 41.84615384615385
+  },
+  "weighted_overall": 44.248366013071895,
+  "scope_differences": [
+    "Forward167videos stopsfloor(realend);IB136videos includespartialtail",
+    "Three shared videos have task-subset question contexts;no joint300video mixedQA run"
+  ],
+  "new_public_adapter_score": null,
+  "judge": "local BF16 vLLM Qwen3-235B-A22B-Instruct-2507, not author OpenRouter",
+  "torch": "2.8.0+cu128 vs author requirements2.7.1",
+  "forward_judgments": {
+    "method": "Saved judgments reused only for identical question, response and reference; predetermined source priority, never highest score",
+    "sources": {
+      "reported_forward_run": 139,
+      "native_two_fps_diagnostic": 19,
+      "input_event_clock_diagnostic": 1
+    }
+  },
+  "inference_and_judge_failures": 0,
+  "author_Table1_sparse_flag": "unconfirmed",
+  "initial_public_script_reproduction": {
+    "forward": 34.523809523809526,
+    "instant": 29.863013698630137,
+    "backward": 17.23076923076923,
+    "overall": 29.738562091503265
+  },
+  "paper_Table1": {
+    "forward": 36.1,
+    "instant": 22.2,
+    "backward": 13.2,
+    "overall": 27.9
+  },
+  "source_forward_sha256": "89bffcd5e15041aa27e8fabbbb55edc2c64c5b2ae63a12cac2f9a2c2ee899591",
+  "source_instant_backward_sha256": "1eb226e291189f777e538ec02582eb193ecbd4925e6131076e7aaea8291b35fb"
+}

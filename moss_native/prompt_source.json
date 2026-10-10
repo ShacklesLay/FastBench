@@ -1,0 +1,12 @@
+{
+  "public_repository": "https://github.com/OpenMOSS/MOSS-VL",
+  "public_commit": "f4ffcd3658fa9cc3a288d05ff9a705fbc7778c28",
+  "public_path": "inference/realtime/run_online_inference.py",
+  "public_symbol": "DEFAULT_BOARD_REALTIME_SYSTEM_PROMPT",
+  "permalink": "https://github.com/OpenMOSS/MOSS-VL/blob/f4ffcd3658fa9cc3a288d05ff9a705fbc7778c28/inference/realtime/run_online_inference.py#L39-L44",
+  "public_file_sha256": "9b8acff72c6a61f825d58110ba4b52925bd434a6186e4365db077589ba07bf4a",
+  "frozen_prompt_file": "realtime_system_prompt.txt",
+  "frozen_prompt_sha256": "3e438e9c992bd290d70801ae43ebb8144642394d300ce6a8de626503b01d94d9",
+  "difference": "Public example encloses <|silence|> in two Markdown backticks; our previously run frozen text omits those backticks and has a trailing newline. Text otherwise identical. No experiment prompt was changed.",
+  "scope": "Prompt text reference only; the public runtime was not substituted for the pinned checkpoint or runner."
+}

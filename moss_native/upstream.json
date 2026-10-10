@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/Ashone3/FastBench",
+  "commit": "277ab8826d943e62c8b7a9fefc44b229bfe55d2b",
+  "files": {
+    "run_stream_eval.py": "0e6f3b425cd713b70588c090c28ea0bb9969cbac00f29f85a0dccab065dc19e9",
+    "hf_openai_server.py": "b03ab139be4900da692b5854057a7edb203f82074420950cb3640ca8d1617cc3",
+    "config.yaml": "ccfb6caf9ac043ac32b5eb7f2098fae8afbbcd4da217e98257dd9d6aac75abb7"
+  },
+  "model_repository": "OpenMOSS-Team/MOSS-VL-Realtime",
+  "model_revision": "d1f71a588deaf2b9b9cea7c6fff66cb10847cc86",
+  "dataset_repository": "Ashenone3/FastBench",
+  "dataset_revision": "818f572cc9f402bc1b4b3d83ec7e084483730131"
+}

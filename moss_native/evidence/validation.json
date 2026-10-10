@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "upstream_commit": "277ab8826d943e62c8b7a9fefc44b229bfe55d2b",
+  "tests": {
+    "upstream": 14,
+    "new": 12,
+    "total_passed": 26,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "shell_syntax_passed": true,
+  "Python_compile_and_CLI_help_passed": true,
+  "offline_replay": {
+    "ok": true,
+    "new_model_calls": 0,
+    "new_judge_calls": 0,
+    "verification": "Portable FIFO/scorer replay over all saved Forward and Instant/Backward workers; no new joint/full GPU run",
+    "runs": [
+      {
+        "videos": 167,
+        "qa": 168,
+        "slots": 14820,
+        "mean": 44.04761904761905,
+        "reference_sha256": "89bffcd5e15041aa27e8fabbbb55edc2c64c5b2ae63a12cac2f9a2c2ee899591",
+        "all_selected_text_anchor_category_score_explanation_exact": true,
+        "scope": "forward"
+      },
+      {
+        "videos": 136,
+        "qa": 138,
+        "slots": 12958,
+        "mean": 44.492753623188406,
+        "reference_sha256": "1eb226e291189f777e538ec02582eb193ecbd4925e6131076e7aaea8291b35fb",
+        "all_selected_text_anchor_category_score_explanation_exact": true,
+        "scope": "instant_backward"
+      }
+    ]
+  },
+  "portable_token_calendar_pixel_audit": {
+    "ok": true,
+    "videos": 9,
+    "HTTP": 410,
+    "visual_slots": 819,
+    "question_slots": 9,
+    "fresh_silence_gates": 828,
+    "answer_gates": 0,
+    "timeouts": 0,
+    "forced_silence": 0
+  },
+  "new_portable_GPU_smoke": false,
+  "new_joint_300video_306QA_run": false,
+  "doc_validation": "README relative links and published command examples checked",
+  "results_summary.json_sha256": "1b2742f761563f2c802b765fba9f20ee2486587dbbfc217562c18dda7432748b",
+  "results_details.jsonl_sha256": "db8c8ed16454860e087ed6628511fdb6ee4f38df1d8e4a83d81ccdf3120124c1",
+  "actual_intermediate_export": {
+    "ok": true,
+    "QA": 306,
+    "slots": 27778,
+    "bytes": 17093212,
+    "raw_and_predictions_and_generated_slots": true,
+    "portable_export_offline_replay_QA": 306,
+    "private_locations_removed": true,
+    "new_inference_or_judge_calls": 0,
+    "scope": "Two actual task-subset runs, not a new joint full run",
+    "export_receipt_sha256": {
+      "forward": "daa0f22d0acd8c9954ffcc49e4952093edab61e415488286588d1b8355b97153",
+      "instant_backward": "a34a57636dda3e219e7ec6dca7e4fffe37542b63dbbcbc14c4f8ca2000b9b4ba"
+    }
+  }
+}

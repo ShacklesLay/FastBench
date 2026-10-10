@@ -1,0 +1,305 @@
+{
+  "ok": true,
+  "evidence_export_only": true,
+  "scope": "forward",
+  "videos": 167,
+  "qa": 168,
+  "slots": 14820,
+  "api_failures": 0,
+  "predictions_sha256": "4e185fdf746de5f91ed2eef8400518021a4fe1133c94bc694fc485e960cded9b",
+  "files": {
+    "predictions.jsonl": "4e185fdf746de5f91ed2eef8400518021a4fe1133c94bc694fc485e960cded9b",
+    "raw_http.jsonl": "61c4371338ad5b9b11dfa83a81ea70a8274b8a3ff7b153e7638217ef79450b0b",
+    "result_details.jsonl": "89bffcd5e15041aa27e8fabbbb55edc2c64c5b2ae63a12cac2f9a2c2ee899591",
+    "slots.jsonl": "99969fa3d4ad1d8475301f12634b9723ea11025ca7e5501a61576ba5c1aec9e0"
+  },
+  "source_workers": [
+    {
+      "worker": "w000",
+      "sample_ids": [
+        72,
+        73,
+        76,
+        97,
+        108,
+        153,
+        190,
+        216,
+        249,
+        257
+      ],
+      "original_raw_sha256": "49a4dd845866e8d43ee431775dbfe69bbed0f4669abc3c337c087c30184a6dfe",
+      "original_token_trace_sha256": "805d0437a4648a8f0d20353f15030b7ea45fa012031a58c363e5bd00b705d058"
+    },
+    {
+      "worker": "w001",
+      "sample_ids": [
+        1,
+        46,
+        53,
+        60,
+        74,
+        119,
+        165,
+        191,
+        222,
+        225,
+        275
+      ],
+      "original_raw_sha256": "35a0bbf2515593c1865349af605f0a2778cb3cfa49f9911c96f93181819f9939",
+      "original_token_trace_sha256": "a36b456a6ccd703cd9f24dd8beafba446ea057c4aa640307ab3c10d866f0f5f6"
+    },
+    {
+      "worker": "w002",
+      "sample_ids": [
+        75,
+        101,
+        111,
+        112,
+        116,
+        180,
+        183,
+        198,
+        219,
+        254
+      ],
+      "original_raw_sha256": "0ff1a53b44a6f2db82f0bb4dd772fc967c0613c55882bd7bf23a157113bad388",
+      "original_token_trace_sha256": "74fec78eaabf3229ddccdf508b848b318bcbf86fe1108ad93dccb91da5ae41bf"
+    },
+    {
+      "worker": "w003",
+      "sample_ids": [
+        13,
+        25,
+        27,
+        91,
+        103,
+        151,
+        187,
+        192,
+        206,
+        291,
+        296
+      ],
+      "original_raw_sha256": "95a86b02e249f7d20b3c29a14d62b1f955723df11b857487660957aa041e10ec",
+      "original_token_trace_sha256": "a71f5bdb23a8bc084af9578c35e1b9f508dc52fcc9a0254e2cc501499485340f"
+    },
+    {
+      "worker": "w004",
+      "sample_ids": [
+        3,
+        35,
+        38,
+        83,
+        102,
+        178,
+        202,
+        212,
+        258,
+        286
+      ],
+      "original_raw_sha256": "fdaf65b0cd741736f5ea07991c55c524a21aa7df239cef4a9a3169e75ab7b320",
+      "original_token_trace_sha256": "026155ab3a4bca0c23d15aea2cf6472243a99e279a43730c9154c6ba134c75f7"
+    },
+    {
+      "worker": "w005",
+      "sample_ids": [
+        14,
+        56,
+        69,
+        88,
+        125,
+        195,
+        236,
+        237,
+        278,
+        288
+      ],
+      "original_raw_sha256": "a177410c7e0184bf57177d7488f85e5aecf6b11e5bcd26c84c3db9cb7a411d34",
+      "original_token_trace_sha256": "911361bd769b0e2648b07037c8c93fd55bf72dfd8c87d5ce339d9e37fd23b2b9"
+    },
+    {
+      "worker": "w006",
+      "sample_ids": [
+        7,
+        67,
+        68,
+        84,
+        131,
+        173,
+        210,
+        220,
+        227,
+        244,
+        294
+      ],
+      "original_raw_sha256": "e0f407abe64b4ff5157bfcd4cfc5d370d82005475ef42c4ed7dbb4ee1a20f417",
+      "original_token_trace_sha256": "8d10285939377ce88ec3bea64b9de29d8009c5355768fb1790cb9735edc8ec87"
+    },
+    {
+      "worker": "w007",
+      "sample_ids": [
+        24,
+        89,
+        130,
+        137,
+        143,
+        144,
+        218,
+        228,
+        246,
+        260
+      ],
+      "original_raw_sha256": "da904072837dcf2b6f4a344015db328bb822285875c983120f2e990e700d9c3b",
+      "original_token_trace_sha256": "42b268ba6bc672e7d0d71537556a5dfffa31c047d9a1bbb0a2090b23c917a148"
+    },
+    {
+      "worker": "w008",
+      "sample_ids": [
+        8,
+        34,
+        47,
+        106,
+        122,
+        167,
+        175,
+        203,
+        226,
+        248,
+        270
+      ],
+      "original_raw_sha256": "e2b4905d3a2522b8ef9aec2205154512cd8f069d7d3ce428d6236bc88aba9057",
+      "original_token_trace_sha256": "bd1e78942b7553d8d1ba183f7d9d510fe72ef6641eaaf1b4fe25c7f09ae237c9"
+    },
+    {
+      "worker": "w009",
+      "sample_ids": [
+        4,
+        81,
+        120,
+        172,
+        174,
+        221,
+        232,
+        245,
+        251,
+        261
+      ],
+      "original_raw_sha256": "46ff6b82c1df726424d121e4dbd779f7e81379a5352a9d743dea68e04c3ba960",
+      "original_token_trace_sha256": "f238ace20d608640ddd3ea8ae561e29ffa8beb9e225f564ca43bb4fe45b24573"
+    },
+    {
+      "worker": "w010",
+      "sample_ids": [
+        5,
+        28,
+        50,
+        118,
+        124,
+        157,
+        164,
+        171,
+        177,
+        199,
+        267
+      ],
+      "original_raw_sha256": "49adb0ad412222403619276dd015299356f8ccf6994f96f2afde739b9c67f00b",
+      "original_token_trace_sha256": "b43c5624ac84fbb0b3f672199d846137b631e00833a81fac8f815c3f0eabc709"
+    },
+    {
+      "worker": "w011",
+      "sample_ids": [
+        29,
+        41,
+        63,
+        109,
+        135,
+        155,
+        211,
+        264,
+        281,
+        300
+      ],
+      "original_raw_sha256": "8ff6e58a4604ddff2db2689a6a3542968e54c335471870e4f2cfaea22777e197",
+      "original_token_trace_sha256": "4efce040a189255dad80ca2ac6189557b4b014f8f8643b99d1e03c4402f55cf5"
+    },
+    {
+      "worker": "w012",
+      "sample_ids": [
+        33,
+        59,
+        104,
+        133,
+        136,
+        160,
+        169,
+        179,
+        197,
+        209,
+        299
+      ],
+      "original_raw_sha256": "7aefec2051aa88682ec05400615a9ac3fb21b4d5bb4c80184cdc1c68216c099c",
+      "original_token_trace_sha256": "658a80101ba810a05de9c1d2138cc980ecb38cd86403552c85f74737948dd28d"
+    },
+    {
+      "worker": "w013",
+      "sample_ids": [
+        17,
+        48,
+        54,
+        71,
+        77,
+        126,
+        138,
+        163,
+        229,
+        272
+      ],
+      "original_raw_sha256": "63a427cf2204a2f0b956840fe94b697bbd178065d91ae7f04cf1de7f15b3924c",
+      "original_token_trace_sha256": "ff42a58fac0f8ac27e3eb94594a893b71af6e5d42f68105980eb2c80e9c2494a"
+    },
+    {
+      "worker": "w014",
+      "sample_ids": [
+        10,
+        30,
+        78,
+        79,
+        148,
+        231,
+        242,
+        262,
+        279,
+        295
+      ],
+      "original_raw_sha256": "1c5e808152dff353bb1bd1d7be56220f2911dcea4ac5f2c8eaa41af76927c139",
+      "original_token_trace_sha256": "9800b2be9660a085aa05f2fce72b2ffe8c66c9c4e3ba9b703005340c8d190ceb"
+    },
+    {
+      "worker": "w015",
+      "sample_ids": [
+        51,
+        62,
+        80,
+        96,
+        170,
+        200,
+        204,
+        234,
+        241,
+        276,
+        292
+      ],
+      "original_raw_sha256": "3017d30817c611f9052d31cbfc009ec7cc4904e187dac4b84c58e23f88b9304c",
+      "original_token_trace_sha256": "4e3656454ef203e1558401eff8539f10fd9f1cff8434b6c8a24309a55ed5e91f"
+    }
+  ],
+  "source_changes": [
+    "remove unused private stream_addr",
+    "video location replaced by public video_path"
+  ],
+  "responses_questions_GT_scores_unchanged": true,
+  "new_inference": false,
+  "new_judging": false,
+  "joint_300_video_run": false
+}
